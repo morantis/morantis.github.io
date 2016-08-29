@@ -9,7 +9,7 @@ var config = {
   app_name: 'The Dice Test',
   // - For your faucet to work, you must register your site at Recaptcha
   // - https://www.google.com/recaptcha/intro/index.html
-  recaptcha_sitekey: '1210c682-3e38-4c78-a83b-653464779529',  // <----- EDIT ME!
+  recaptcha_sitekey: '6LfmtCgTAAAAAKWaC80Gs10pAb5saT2dCa-2CyR2',  // <----- EDIT ME!
   //redirect_uri: 'http://morantis.x10host.com/',
   mp_browser_uri: 'https://www.moneypot.com',
   mp_api_uri: 'https://api.moneypot.com',
