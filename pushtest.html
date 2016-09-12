@@ -5,6 +5,26 @@
   <script>
     var OneSignal = window.OneSignal || [];
     OneSignal.push(["init", {
+      
+      promptOptions: {
+        /* Change bold title, limited to 30 characters */
+        siteName: 'Nexxus Holdings',
+        /* Subtitle, limited to 90 characters */
+        actionMessage: "Notes.",
+        /* Example notification title */
+        exampleNotificationTitle: 'Example notification',
+        /* Example notification message */
+        exampleNotificationMessage: 'This is an example notification',
+        /* Text below example notification, limited to 50 characters */
+        exampleNotificationCaption: 'You can unsubscribe anytime',
+        /* Accept button text, limited to 15 characters */
+        acceptButtonText: "ALLOW",
+        /* Cancel button text, limited to 15 characters */
+        cancelButtonText: "NO THANKS"
+    }
+      
+      
+      
       welcomeNotification: {
         "title": "My Custom Title",
         "message": "Thanks for subscribing!",
